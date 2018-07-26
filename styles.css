@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    margin: 0.2em;
+    color: white;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    background: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    padding: 0.2em;
+    border: 2px solid #0066cc;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+  margin-left: 1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background: #00ccff;
+}
+
+.container {
+  background: linear-gradient(-90deg, #0099ff, #00ccff);
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.5);
+  border: 6px solid #0066cc;
+  border-radius: 36px;
+  padding: 5%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+input[type=color] {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+input[type=color]:hover, td:hover {
+  opacity: 0.80;
+  cursor: pointer;
+}
